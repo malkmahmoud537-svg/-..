@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Digital Egypt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <a href="#home" class="brand">
+            <span class="brand-mark">D</span>
+            <span>Digital Egypt</span>
+        </a>
+
+        <nav class="nav" id="nav">
+
+            <a href="#home" data-i18n="navHome">الرئيسية</a>
+
+            <a href="#digital" data-i18n="navDigital">
+                التحول الرقمي
+            </a>
+
+            <a href="#services" data-i18n="navServices">
+                الخدمات
+            </a>
+
+            <a href="#explore" data-i18n="navExplore">
+                استكشف
+            </a>
+
+            <a href="#challenge" data-i18n="navChallenge">
+                التحدي
+            </a>
+
+        </nav>
+
+        <div class="header-actions">
+
+            <button class="control-btn" id="languageBtn">
+                EN
+            </button>
+
+            <button class="control-btn theme-btn" id="themeBtn">
+                <span id="themeIcon">◐</span>
+            </button>
+
+            <button class="menu-btn" id="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+   <section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <div class="status">
+            <span></span>
+            <p data-i18n="liveProject">مشروع للتوعية الرقمية</p>
+        </div>
+
+        <h1>
+            <span data-i18n="heroTitle1">مستقبل</span>
+            <strong data-i18n="heroTitle2">رقمي</strong>
+            <span data-i18n="heroTitle3">يبدأ بك.</span>
+        </h1>
+
+        <p class="hero-description" data-i18n="heroText">
+            منصة تفاعلية تساعدك على فهم العالم الرقمي،
+            استخدام الخدمات الإلكترونية، وحماية معلوماتك
+            في الحياة اليومية.
+        </p>
+
+        <div class="hero-actions">
+
+            <a href="#explore" class="primary-btn" data-i18n="start">
+                ابدأ الاستكشاف
+            </a>
+
+            <a href="#challenge" class="secondary-btn" data-i18n="test">
+                اختبر معرفتك
+            </a>
+
+        </div>
+
+        <div class="hero-numbers">
+
+            <div>
+                <strong>01</strong>
+                <span data-i18n="heroFeature1">تعلم رقمي</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span data-i18n="heroFeature2">أمان رقمي</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span data-i18n="heroFeature3">بيانات حية</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-card">
+
+        <div class="hero-card-top">
+
+            <span data-i18n="liveData">
+                LIVE DATA
+            </span>
+
+            <span class="live-dot"></span>
+
+        </div>
+
+        <div class="hero-card-title">
+
+            <small data-i18n="currentWeather">
+                الطقس الحالي
+            </small>
+
+            <h2 id="heroTemperature">
+                --°C
+            </h2>
+
+            <p id="heroCity">
+                Cairo
+            </p>
+
+        </div>
+
+        <div class="hero-line"></div>
+
+        <div class="hero-card-info">
+
+            <div>
+                <span data-i18n="temperature">
+                    درجة الحرارة
+                </span>
+
+                <strong id="heroTempSmall">
+                    --
+                </strong>
+            </div>
+
+            <div>
+                <span data-i18n="wind">
+                    سرعة الرياح
+                </span>
+
+                <strong id="heroWind">
+                    --
+                </strong>
+            </div>
+
+        </div>
+
+        <div class="hero-api">
+
+            <span></span>
+
+            <p>
+                OPEN-METEO API
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <section class="intro section" id="digital">
+
+            <div class="section-label">
+
+                <span>01</span>
+
+                <p data-i18n="digitalLabel">
+                    التحول الرقمي
+                </p>
+
+            </div>
+
+
+            <div class="intro-content">
+
+                <div>
+
+                    <h2 data-i18n="digitalTitle">
+                        التحول الرقمي
+                        <br>
+                        <em>طريقة جديدة للحياة.</em>
+                    </h2>
+
+                </div>
+
+
+                <div>
+
+                    <p data-i18n="digitalText">
+                        التكنولوجيا لم تعد شيئاً منفصلاً عن حياتنا.
+                        أصبحت جزءاً من التعليم، الخدمات، التواصل
+                        والعمل. لذلك أصبح فهمها واستخدامها بشكل
+                        صحيح مهارة أساسية.
+                    </p>
+
+
+                    <div class="mini-stats">
+
+                        <div>
+
+                            <strong>
+                                01
+                            </strong>
+
+                            <span data-i18n="learn">
+                                تعلم
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                02
+                            </strong>
+
+                            <span data-i18n="use">
+                                استخدم
+                            </span>
+
+                        </div>
+
+
+                        <div>
+
+                            <strong>
+                                03
+                            </strong>
+
+                            <span data-i18n="protect">
+                                احمِ
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="services section" id="services">
+
+            <div class="section-heading">
+
+                <div class="section-label">
+
+                    <span>02</span>
+
+                    <p data-i18n="servicesLabel">
+                        الخدمات الرقمية
+                    </p>
+
+                </div>
+
+
+                <h2 data-i18n="servicesTitle">
+                    استخدم التكنولوجيا
+                    <br>
+                    <em>بشكل أذكى.</em>
+                </h2>
+
+            </div>
+
+
+            <div class="service-grid">
+
+
+                <article class="service-card">
+
+                    <div class="service-number">
+                        01
+                    </div>
+
+                    <h3 data-i18n="service1Title">
+                        الخدمات الإلكترونية
+                    </h3>
+
+                    <p data-i18n="service1Text">
+                        الوصول إلى الخدمات الرقمية يبدأ
+                        دائماً من المصدر الرسمي.
+                    </p>
+
+                    <button
+                        class="card-link"
+                        data-info="service1"
+                        data-i18n="discover"
+                    >
+                        اكتشف
+                    </button>
+
+                </article>
+
+
+                <article class="service-card featured">
+
+                    <div class="service-number">
+                        02
+                    </div>
+
+                    <h3 data-i18n="service2Title">
+                        حماية البيانات
+                    </h3>
+
+                    <p data-i18n="service2Text">
+                        بياناتك الشخصية مسؤولية.
+                        تعرف على أهم الخطوات لحمايتها.
+                    </p>
+
+                    <button
+                        class="card-link"
+                        data-info="service2"
+                        data-i18n="discover"
+                    >
+                        اكتشف
+                    </button>
+
+                </article>
+
+
+                <article class="service-card">
+
+                    <div class="service-number">
+                        03
+                    </div>
+
+                    <h3 data-i18n="service3Title">
+                        الوعي الرقمي
+                    </h3>
+
+                    <p data-i18n="service3Text">
+                        فكر قبل أن تضغط، وتأكد قبل أن
+                        تشارك أي معلومة.
+                    </p>
+
+                    <button
+                        class="card-link"
+                        data-info="service3"
+                        data-i18n="discover"
+                    >
+                        اكتشف
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <section class="explore section" id="explore">
+
+            <div class="section-label">
+
+                <span>03</span>
+
+                <p data-i18n="exploreLabel">
+                    بيانات حية
+                </p>
+
+            </div>
+
+
+            <div class="explore-header">
+
+                <div>
+
+                    <h2 data-i18n="exploreTitle">
+                        استكشف مصر
+                        <br>
+                        <em>بالبيانات الحية.</em>
+                    </h2>
+
+                    <p data-i18n="exploreText">
+                        اختر محافظة وشاهد بيانات الطقس الحالية
+                        التي يتم جلبها مباشرة من API.
+                    </p>
+
+                </div>
+
+
+                <div class="api-badge">
+
+                    <span></span>
+
+                    API CONNECTED
+
+                </div>
+
+            </div>
+
+
+            <div class="weather-panel">
+
+                <div class="location-select">
+
+                    <label
+                        for="governorate"
+                        data-i18n="chooseGovernorate"
+                    >
+                        اختر المحافظة
+                    </label>
+
+
+                    <select id="governorate">
+
+                        <option
+                            value="Cairo"
+                            data-i18n="cairo"
+                        >
+                            القاهرة
+                        </option>
+
+                        <option
+                            value="Alexandria"
+                            data-i18n="alexandria"
+                        >
+                            الإسكندرية
+                        </option>
+
+                        <option
+                            value="Giza"
+                            data-i18n="giza"
+                        >
+                            الجيزة
+                        </option>
+
+                        <option
+                            value="Hurghada"
+                            data-i18n="hurghada"
+                        >
+                            الغردقة
+                        </option>
+
+                        <option
+                            value="Luxor"
+                            data-i18n="luxor"
+                        >
+                            الأقصر
+                        </option>
+
+                        <option
+                            value="Aswan"
+                            data-i18n="aswan"
+                        >
+                            أسوان
+                        </option>
+
+                    </select>
+
+
+                    <button
+                        id="weatherBtn"
+                        class="primary-btn"
+                        data-i18n="getWeather"
+                    >
+                        عرض البيانات
+                    </button>
+
+                </div>
+
+
+                <div
+                    class="weather-result"
+                    id="weatherResult"
+                >
+
+                    <div class="weather-loading">
+
+                        <span></span>
+
+                        <p data-i18n="selectLocation">
+                            اضغط على عرض البيانات لجلب البيانات
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="security section">
+
+            <div class="security-grid">
+
+                <div>
+
+                    <div class="section-label">
+
+                        <span>04</span>
+
+                        <p data-i18n="securityLabel">
+                            الأمان الرقمي
+                        </p>
+
+                    </div>
+
+
+                    <h2 data-i18n="securityTitle">
+                        قبل أن تضغط،
+                        <br>
+                        <em>فكر.</em>
+                    </h2>
+
+
+                    <p data-i18n="securityText">
+                        العالم الرقمي يوفر فرصاً كبيرة،
+                        لكنه يحتاج إلى مستخدم واعٍ.
+                    </p>
+
+                </div>
+
+
+                <div class="security-list">
+
+
+                    <div class="security-item">
+
+                        <span>
+                            01
+                        </span>
+
+                        <div>
+
+                            <h3 data-i18n="security1Title">
+                                تحقق من الرابط
+                            </h3>
+
+                            <p data-i18n="security1Text">
+                                تأكد من مصدر الموقع قبل إدخال
+                                أي بيانات شخصية.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="security-item">
+
+                        <span>
+                            02
+                        </span>
+
+                        <div>
+
+                            <h3 data-i18n="security2Title">
+                                احمِ كلمة المرور
+                            </h3>
+
+                            <p data-i18n="security2Text">
+                                استخدم كلمة مرور قوية ولا تشاركها.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="security-item">
+
+                        <span>
+                            03
+                        </span>
+
+                        <div>
+
+                            <h3 data-i18n="security3Title">
+                                رمز التحقق سري
+                            </h3>
+
+                            <p data-i18n="security3Text">
+                                لا تشارك رموز التحقق مع أي شخص.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="challenge section" id="challenge">
+
+            <div class="section-label">
+
+                <span>05</span>
+
+                <p data-i18n="challengeLabel">
+                    التحدي الرقمي
+                </p>
+
+            </div>
+
+
+            <div class="challenge-header">
+
+                <h2 data-i18n="challengeTitle">
+                    هل أنت مستخدم
+                    <br>
+                    <em>واعٍ رقمياً؟</em>
+                </h2>
+
+
+                <p data-i18n="challengeText">
+                    أجب عن الأسئلة واكتشف مستوى وعيك الرقمي.
+                </p>
+
+            </div>
+
+
+            <div class="quiz">
+
+                <div class="quiz-top">
+
+                    <span id="questionNumber">
+                        01 / 04
+                    </span>
+
+                    <div class="progress">
+
+                        <span id="progress"></span>
+
+                    </div>
+
+                </div>
+
+
+                <h3 id="question"></h3>
+
+
+                <div
+                    id="answers"
+                    class="answers"
+                ></div>
+
+
+                <div class="quiz-bottom">
+
+                    <span id="score">
+                        النتيجة: 0
+                    </span>
+
+                    <button
+                        id="nextBtn"
+                        data-i18n="next"
+                    >
+                        التالي
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="closing">
+
+            <div>
+
+                <p data-i18n="closingLabel">
+                    المستقبل رقمي
+                </p>
+
+
+                <h2 data-i18n="closingTitle">
+                    الوعي هو
+                    <br>
+                    <em>البداية.</em>
+                </h2>
+
+
+                <a
+                    href="#home"
+                    class="primary-btn"
+                    data-i18n="backHome"
+                >
+                    البداية
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-brand">
+
+            <span>
+                DE
+            </span>
+
+            DIGITAL EGYPT
+
+        </div>
+
+
+        <p data-i18n="footer">
+            مشروع طلابي للتوعية الرقمية
+        </p>
+
+    </footer>
+
+
+    <div
+        class="modal"
+        id="modal"
+    >
+
+        <div class="modal-content">
+
+            <button id="closeModal">
+                ×
+            </button>
+
+
+            <span
+                class="eyebrow"
+                data-i18n="moreInfo"
+            >
+                معلومات إضافية
+            </span>
+
+
+            <h3 id="modalTitle"></h3>
+
+
+            <p id="modalText"></p>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
